@@ -1,0 +1,6 @@
+fugashi
+sentencepiece
+unidic_lite
+jaconv
+transformers
+torch
