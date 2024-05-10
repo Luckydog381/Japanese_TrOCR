@@ -4,7 +4,7 @@ import re
 import jaconv
 
 #load model
-model_path = "model/"
+model_path = "Japanese_TrOCR/model/"
 feature_extractor = AutoFeatureExtractor.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = VisionEncoderDecoderModel.from_pretrained(model_path)
